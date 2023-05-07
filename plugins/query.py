@@ -528,11 +528,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton("➕️ 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ➕️", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton("🔍 𝚂𝙴𝙰𝚁𝙲𝙷 🔍", switch_inline_query_current_chat=''), 
-            InlineKeyboardButton("📢 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 📢", url="https://t.me/mkn_bots_updates")
+            InlineKeyboardButton("😑 𝗦𝗘𝗔𝗥𝗖𝗛 😑", switch_inline_query_current_chat=''), 
+            InlineKeyboardButton("🥵 𝗨𝗣𝗗𝗔𝗧𝗘𝗦 🥵", url="https://t.me/nillcoderbot")
             ],[
-            InlineKeyboardButton("ℹ️ 𝙷𝙴𝙻𝙿 ℹ️", callback_data="help"),
-            InlineKeyboardButton("💫 𝙰𝙱𝙾𝚄𝚃 💫", callback_data="about")
+            InlineKeyboardButton("🤧 𝗛𝗘𝗟𝗣 🤧", callback_data="help"),
+            InlineKeyboardButton("💫 𝗔𝗕𝗢𝗨𝗧 💫", callback_data="about")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.edit_message_media(
@@ -620,7 +620,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "source":
         buttons = [[
-            InlineKeyboardButton('SOURCE CODE', url='https://github.com/MrMKN/PROFESSOR-BOT')
+            InlineKeyboardButton('SOURCE CODE', url='https://telegram.me/nillcoderbot)
             ],[
             InlineKeyboardButton('👩‍🦯 Back', callback_data='about')
         ]]
